@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "12522a20-0cb9-49fe-82b0-347def069694",
+		"name": "book store",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "50437549",
+		"_collection_link": "https://alfazemon520-4030167.postman.co/workspace/alfaz-emon's-Workspace~fb1a33db-451b-46c0-848e-62a63d67725e/collection/50437549-12522a20-0cb9-49fe-82b0-347def069694?action=share&source=collection_link&creator=50437549"
+	},
+	"item": [
+		{
+			"name": "user",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "user uuid",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "auth",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "token",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "alfazemon21",
+						"password": "Alfaz1744!"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"alfazemon21\",\r\n  \"password\": \"Alfaz1744!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://bookstore.toolsqa.com/Account/v1/GenerateToken"
+			},
+			"response": []
+		},
+		{
+			"name": "delte",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get book",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "post book",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
